@@ -12,7 +12,7 @@ $$
 $$
 i\hbar\frac{d}{dt}\phi\(t\) = E_n\phi\(t\) \implies \phi\(t\) = e^{\frac{-i}{\hbar}E_nt}
 $$
-<\div>
+</div>
 
 <style>
  div {
