@@ -4,7 +4,7 @@ Also, this project contains a code that animates the $\psi\(x, 0\)$ approximated
 
 ## Problem specification
 Let's begin with the time independent Schrodinger equation.
-<div style="text-align: center; font-size: 1.5em; margin: 20px 0;">
+<div style="text-align: center; font-size: 10em; margin: 20px 0;">
 
 $$
 \[-\frac{\hbar}{2m}\frac{d}{dx} + V\(x\)\]\psi\(x\) = E_n\psi\(x\)
