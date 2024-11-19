@@ -89,7 +89,7 @@ where:
 
 These eigenfunctions form an orthonormal basis, allowing any initial wave function $\( \Psi(x, 0) \)$ to be expressed as a linear combination of $\( \psi_n(x) \)$:
 
-![potential wall](images/box.jpg)
+![potential wall](images/box.png)
 
 ## Features
 
@@ -262,4 +262,4 @@ This simulation is inspired by fundamental concepts in quantum mechanics and aim
 
 # Contact
 
-For any questions or suggestions, please contact [your.email@example.com](mailto:your.email@example.com).
+For any questions or suggestions, please contact [your.email@example.com](amirarsalan.sanati81@gmail.com).
