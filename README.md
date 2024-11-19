@@ -9,12 +9,13 @@
   - [Eigenfunctions and Eigenvalues](#eigenfunctions-and-eigenvalues)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Visualization](#visualization)
+- [Usage (Time Evolution)](#usage)
   - [Running the Simulation](#running-the-simulation)
   - [Input Modes](#input-modes)
+- [Usage (Frequency Evolution)](#usage-2)
 - [Dependencies](#dependencies)
 - [Code Structure](#code-structure)
-- [Visualization](#visualization)
 - [License](#license)
 
 ## Overview
@@ -118,6 +119,24 @@ Ensure you have Python 3.x installed on your system. Follow the steps below to s
    ```bash
    pip install numpy matplotlib tkinter
    ```
+## Visualization
+
+The simulation provides several real-time plots:
+
+1. **Cn Coefficients:**
+   - Displays the magnitude of the coefficients $\( C_n \)$ for each eigenstate, illustrating their contribution to the overall wave function.
+
+2. **Initial Wave Function $(\( \Psi(x, 0) \))$:**
+   - Shows the chosen initial state of the particle within the box.
+
+3. **Real Part of $\( \Psi(x, t) \)$:**
+   - Visualizes the real component of the wave function as it evolves over time.
+
+4. **Imaginary Part of $\( \Psi(x, t) \)$:**
+   - Visualizes the imaginary component of the wave function as it evolves over time.
+
+5. **Probability Density $(\( \Psi^*(x, t)\Psi(x, t) \))$:**
+   - Illustrates the probability distribution of finding the particle at position $\( x \)$ and time $\( t \)$.
 
 ## Usage
 
@@ -151,7 +170,6 @@ Upon running the script, you will be prompted to select the simulation mode and 
    *Example Input:*
    ```
    Enter the mode you want: 0
-   Enter the stationary number (has to be an integer): 3
    ```
 
    For **Custom Function (mode 3)**:
@@ -159,6 +177,35 @@ Upon running the script, you will be prompted to select the simulation mode and 
    Enter a (should be between -1/2 to 1/2): -0.25
    Enter b (should be between -1/2 to 1/2 and more than a): 0.25
    ```
+
+   
+![Simulation Screenshot](images/sim.gif)
+
+## Usage 2
+
+Execute the Python script to start the simulation:
+
+```bash
+python particle_in_box.py
+```
+1. **Select Application Mode:**
+   ```
+   Enter the application mode you want (1 for time evolution, 0 for frequency evolution): 0
+   ```
+
+2. **Select Initial State:**
+   - **0**: **Stationary State** - Choose a specific quantum number $\( n \)$ for a stationary eigenstate.
+   - **1**: **Linear Combination (Function 1)** - A predefined linear combination of eigenstates.
+   - **2**: **Linear Combination (Function 2)** - Another predefined linear combination.
+   - **3**: **Custom Function** - Define a custom initial wave function within a specified interval.
+  
+   *Example Input:*
+   ```
+   Enter the mode you want: 0
+   ```
+
+   
+![Simulation Screenshot](images/simf.gif)
 
 ## Dependencies
 
@@ -200,31 +247,6 @@ The main script `particle_in_box.py` comprises several key components:
 6. **Visualization:**
    - Creates plots for coefficients $\( C_n \)$, initial wave function, real and imaginary parts of $\( \Psi(x, t) \)$, and probability density.
    - Animates the evolution of the wave function over time or frequency components.
-
-## Visualization
-
-The simulation provides several real-time plots:
-
-1. **Cn Coefficients:**
-   - Displays the magnitude of the coefficients $\( C_n \)$ for each eigenstate, illustrating their contribution to the overall wave function.
-
-2. **Initial Wave Function ($\( \Psi(x, 0) \)$):**
-   - Shows the chosen initial state of the particle within the box.
-
-3. **Real Part of $\( \Psi(x, t) \)$:**
-   - Visualizes the real component of the wave function as it evolves over time.
-
-4. **Imaginary Part of $\( \Psi(x, t) \)$:**
-   - Visualizes the imaginary component of the wave function as it evolves over time.
-
-5. **Probability Density $(\( \Psi^*(x, t)\Psi(x, t) \))$:**
-   - Illustrates the probability distribution of finding the particle at position $\( x \)$ and time $\( t \)$.
-
-*Example Visualization:*
-
-![Simulation Screenshot](images/sim.gif)
-
-*(Replace `path_to_screenshot.png` with the actual path to your screenshot image.)*
 
 ## License
 
