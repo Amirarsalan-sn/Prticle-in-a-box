@@ -169,7 +169,7 @@ Upon running the script, you will be prompted to select the simulation mode and 
 
    *Example Input:*
    ```
-   Enter the mode you want: 0
+   Enter the mode you want: 3
    ```
 
    For **Custom Function (mode 3)**:
@@ -201,7 +201,7 @@ python particle_in_box.py
   
    *Example Input:*
    ```
-   Enter the mode you want: 0
+   Enter the mode you want: 2
    ```
 
    
