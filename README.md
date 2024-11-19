@@ -265,4 +265,4 @@ This simulation is inspired by fundamental concepts in quantum mechanics and aim
 
 # Contact
 
-For any questions or suggestions, please contact [your.email@example.com](amirarsalan.sanati81@gmail.com).
+For any questions or suggestions, please contact [amirarsalan.sanati81@gmail.com](https://github.com/Amirarsalan-sn).
