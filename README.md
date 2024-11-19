@@ -89,7 +89,7 @@ where:
 
 These eigenfunctions form an orthonormal basis, allowing any initial wave function $\( \Psi(x, 0) \)$ to be expressed as a linear combination of $\( \psi_n(x) \)$:
 
-![potential wall](images/box.png)
+![potential wall](images/box2.png)
 
 ## Features
 
