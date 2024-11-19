@@ -87,9 +87,12 @@ where:
 - $\( m \)$ is the mass of the particle.
 - $\( L \)$ is the width of the box which in this case is $\( a \)$
 
-These eigenfunctions form an orthonormal basis, allowing any initial wave function $\( \Psi(x, 0) \)$ to be expressed as a linear combination of $\( \psi_n(x) \)$:
-
+These eigenfunctions form an orthonormal basis, allowing any desired initial wave function $\( \Psi(x, 0) \)$ to be expressed as a linear combination of $\( \psi_n(x) \)$:
+<div align="center">
+  
 ![potential wall](images/box2.png)
+
+</div>
 
 ## Features
 
