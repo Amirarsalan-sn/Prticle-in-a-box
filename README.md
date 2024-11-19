@@ -4,7 +4,7 @@ Also, this project contains a code that animates the $\psi\(x, 0\)$ approximated
 
 ## Problem specification
 Let's begin with the time independent Schrodinger equation.
-<div class="equation-container">
+<div style="text-align: center; font-size: 1.5em; margin: 20px 0;">
 
 $$
 \[-\frac{\hbar}{2m}\frac{d}{dx} + V\(x\)\]\psi\(x\) = E_n\psi\(x\)
@@ -14,12 +14,6 @@ $$
 i\hbar\frac{d}{dt}\phi\(t\) = E_n\phi\(t\) \implies \phi\(t\) = e^{\frac{-i}{\hbar}E_nt}
 $$
 </div>
-<style>
-.equation-container {
-    text-align: center; /* Centering the equations */
-    font-size: 1.5em;   /* Adjusting the font size */
-    margin: 20px 0;     /* Adding some margin */
-</style>
 
 The potential is zero within the bound $x \in \[-\frac{a}{2}, \frac{a}{2}\]$ and $+\infty$ elsewhere.
 ## Time evolution
